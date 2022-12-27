@@ -116,3 +116,38 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 900px){
+    .nav-bar {
+        flex-direction: column;
+        background-color: #373e98;
+        height: 35vh;
+        border-bottom: 0;
+    }
+    .top-name {
+        align-items: center;
+        border-bottom: 2px solid white;
+        padding-top: 2vh;
+    }
+    .right-options {
+        padding-top: 4vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .homescreen {
+        height: 65vh;
+    }
+    .homescreen-center {
+        margin: 0 1vw 0 1vw;
+        font-size: 3vh;
+    }
+
+    .about-me {
+        margin: 0;
+    }
+
+    .about-me-para {
+        font-size: 2vh;
+    }
+}
+
